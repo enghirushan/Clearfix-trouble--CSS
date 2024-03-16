@@ -1,0 +1,38 @@
+.left{
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .right{
+    float: right;
+  }
+
+  .clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+  
+.wrapp{
+    background-color: blue;
+    border: 8px solid yellow;
+    border-radius: 12px;
+   
+  
+}
+.ab{
+    color: aliceblue;
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+     line-height: 34px;
+
+}
